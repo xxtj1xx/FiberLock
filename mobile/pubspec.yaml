@@ -1,0 +1,17 @@
+name: fiberlock
+description: FiberLock mobile app
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.0.0
+  mobile_scanner: ^5.0.0  # for QR
+  flutter_offline: ^3.0.0
+
+flutter:
+  uses-material-design: true
